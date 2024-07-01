@@ -1,0 +1,12 @@
+Process of Instantiation:
+1. Creating a variable to store the reference of the object.
+2. Create an object using new keyword.
+3. Assigning reference of the created object to the variable.
+
+HEAP: It is shared 
+STACK: Every method has its own stack.
+Ex: Student S1= new Student();
+Student S2= new Student();
+S1=S2;
+Earlier obj1 was pointing to S1 and obj2 was pointing to S2. As soon as we
+wrote S1=S2, then obj1 became garbage value.
