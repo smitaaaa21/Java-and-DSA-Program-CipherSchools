@@ -1,7 +1,7 @@
 
 public class CheckPalindrome
 {
-    static boolean CheckPalindrome(String s)
+    static boolean checkPalindrome(String s)
     {
         s = s.toLowerCase();
         int l = 0;

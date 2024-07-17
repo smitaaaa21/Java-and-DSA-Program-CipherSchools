@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binary Search Tree Visualizer</title>
+  <link rel="stylesheet" href="./main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Fredericka+the+Great&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <title>Binary Search Tree Visualizer</title>
+    <p>Binary Search Tree Visualizer</p>
+    <div class="controls">
+      <label for="number">Enter any number:</label>
+      <input type="text" id="number" placeholder="Value of the node">
+      <button onclick="enterNumber()">Add element</button>
+      <button onclick="findEle()">Search element</button>
+      <button onclick="deleteNumber()">Delete</button>
+      <button onclick="resetAll()">Reset Tree</button>
+    </div>
+    <p id="comp"> Current status of the Binary Search Tree --> </p>
+    <canvas class="explore_area" id="myCanvas" width="1430" height="550"></canvas>
+  </div>
+  <script src="./bst.js"></script>
+</body>
+</html>
